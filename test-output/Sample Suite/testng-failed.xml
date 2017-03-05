@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Sample Suite]" parallel="methods">
+  <test name="DataProviderTest">
+    <classes>
+      <class name="multipleDataProviders.Login"/>
+    </classes>
+  </test> <!-- DataProviderTest -->
+  <test name="DataProviderTest(failed)" parallel="methods">
+    <classes>
+      <class name="multipleDataProviders.Login">
+        <methods>
+          <include name="testLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- multipleDataProviders.Login -->
+    </classes>
+  </test> <!-- DataProviderTest(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

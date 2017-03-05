@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Suite" duration-ms="712" started-at="2017-03-05T16:15:28Z" finished-at="2017-03-05T16:15:29Z">
+    <groups>
+    </groups>
+    <test name="DataProviderTest" duration-ms="712" started-at="2017-03-05T16:15:28Z" finished-at="2017-03-05T16:15:29Z">
+      <class name="multipleDataProviders.Login">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:multipleDataProviders.Login@281e3708]" name="testLogin" duration-ms="6" started-at="2017-03-05T21:45:29Z" data-provider="DataRepository" finished-at="2017-03-05T21:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eduCBA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:multipleDataProviders.Login@281e3708]" name="testLogin" duration-ms="1" started-at="2017-03-05T21:45:29Z" data-provider="DataRepository" finished-at="2017-03-05T21:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SiliconValley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw0rd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- multipleDataProviders.Login -->
+    </test> <!-- DataProviderTest -->
+  </suite> <!-- Sample Suite -->
+</testng-results>
